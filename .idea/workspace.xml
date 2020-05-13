@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75a91a4d-0dc5-4e79-a884-9ba2f3f30d3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\maven3.5\repositor" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="C:\maven3.5\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bq9RfMgfQWQ5hWeXNEN1FmLZMf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ForumConsumer9001Application">
+    <configuration name="ForumConsumer9001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="forum-consumer9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cfm.ForumConsumer9001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumEureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="forum-eureka7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cfm.ForumEureka7001Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumEureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="forum-eureka7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cfm.ForumEureka7002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForumEureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="forum-eureka7003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cfm.ForumEureka7003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75a91a4d-0dc5-4e79-a884-9ba2f3f30d3d" name="Default Changelist" comment="" />
+      <created>1589348749225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589348749225</updated>
+      <workItem from="1589348750991" duration="7521000" />
+      <workItem from="1589357149880" duration="1414000" />
+    </task>
+    <task id="LOCAL-00001" summary="注册中心搭建">
+      <created>1589349525157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589349525157</updated>
+    </task>
+    <task id="LOCAL-00002" summary="swagger">
+      <created>1589355559591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589355559591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="注册中心搭建" />
+    <MESSAGE value="swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="98" key="#Project_Structure" timestamp="1589358016256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="98" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589358016256" />
+    <state x="296" y="41" key="CommitChangelistDialog2" timestamp="1589355553023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="296" y="41" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589355553023" />
+    <state width="1867" height="332" key="GridCell.Tab.0.bottom" timestamp="1589358134654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134654" />
+    <state width="1867" height="332" key="GridCell.Tab.0.center" timestamp="1589358134654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134654" />
+    <state width="1867" height="332" key="GridCell.Tab.0.left" timestamp="1589358134654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134654" />
+    <state width="1867" height="332" key="GridCell.Tab.0.right" timestamp="1589358134654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134654" />
+    <state width="1867" height="332" key="GridCell.Tab.1.bottom" timestamp="1589358134656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134656" />
+    <state width="1867" height="332" key="GridCell.Tab.1.center" timestamp="1589358134655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134655" />
+    <state width="1867" height="332" key="GridCell.Tab.1.left" timestamp="1589358134655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134655" />
+    <state width="1867" height="332" key="GridCell.Tab.1.right" timestamp="1589358134655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134655" />
+    <state width="1867" height="332" key="GridCell.Tab.2.bottom" timestamp="1589358134658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134658" />
+    <state width="1867" height="332" key="GridCell.Tab.2.center" timestamp="1589358134657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134657" />
+    <state width="1867" height="332" key="GridCell.Tab.2.left" timestamp="1589358134657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134657" />
+    <state width="1867" height="332" key="GridCell.Tab.2.right" timestamp="1589358134658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="332" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589358134658" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1589358104193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589358104193" />
+    <state x="452" y="191" key="Vcs.Push.Dialog.v2" timestamp="1589357235212">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589357235212" />
+    <state x="583" y="279" key="git4idea.merge.GitPullDialog" timestamp="1589357211763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="279" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589357211763" />
+    <state x="187" y="270" width="1598" height="688" key="new project wizard" timestamp="1589357492890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="187" y="270" width="1598" height="688" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589357492890" />
+  </component>
+</project>

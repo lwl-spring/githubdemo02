@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/forum-consumer9001/forum-consumer9001.iml" filepath="$PROJECT_DIR$/forum-consumer9001/forum-consumer9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forum-eureka7001/forum-eureka7001.iml" filepath="$PROJECT_DIR$/forum-eureka7001/forum-eureka7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forum-eureka7002/forum-eureka7002.iml" filepath="$PROJECT_DIR$/forum-eureka7002/forum-eureka7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forum-eureka7003/forum-eureka7003.iml" filepath="$PROJECT_DIR$/forum-eureka7003/forum-eureka7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/githubdemo02.iml" filepath="$PROJECT_DIR$/.idea/githubdemo02.iml" />
+    </modules>
+  </component>
+</project>
