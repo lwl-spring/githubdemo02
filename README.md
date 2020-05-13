@@ -4,7 +4,7 @@
 ## 中间遇到的问题
 ### swagger2 2.2.2版本与spring cloud feign 冲突，导致feign接口注入bean为null的问题
   解决办法：
-    1. 如果swagger版本是v1.x，那么请参考：https://segmentfault.com/a/1190000006595187
+    1. 如果swagger版本是v1.x，那么请参考：https://segmentfault.com/a/1190000006595187。
     2. 如果swagger版本是v2.x，那么请将升级swagger版本到2.5.0以上即可。
 ### swagger2页面可以访问到，但不显示文档列表，换个浏览器却可以了
     就是浏览器缓存的原因，你清一下浏览器的缓存就好了，就这么简单!
