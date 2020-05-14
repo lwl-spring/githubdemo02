@@ -10,19 +10,19 @@
   <div id="app">
 
       <template>
-          <center>讨论版社区 <el-select v-model="ab" filterable placeholder="全部"></el-select>
-
+          <center>讨论版社区
+              <el-select v-model="option" filterable placeholder="全部" @change="selectWorkName">
+                  <el-option
+                          v-for="item in options"
+                          :key="item.id"
+                          :label="item.name"
+                          :value="item.id">
+                  </el-option>
+              </el-select>
               <el-button type="primary" icon="el-icon-search" @click="fetchData">搜索</el-button>
               <el-button type="primary" icon="el-icon-edit" @click="formVisible = true">发帖</el-button>
           </center>
-          <el-select>
-<!--              <el-option-->
-<!--                      v-for="item in options"-->
-<!--                      :key="item.value"-->
-<!--                      :label="item.label"-->
-<!--                      :value="item.value">-->
-<!--              </el-option>-->
-          </el-select>
+
           <el-table
                   :data="tableData"
                   style="width: 100%">
@@ -52,15 +52,15 @@
           <el-dialog
                   title="发布帖子"
                   :visible.sync="formVisible"            >
-              <el-form label-width="80px" >
-                  <el-form-item label="发布版区">
-                      <el-select>
-<!--                          <el-option-->
-<!--                                  v-for="item in options"-->
-<!--                                  :key="item.value"-->
-<!--                                  :label="item.label"-->
-<!--                                  :value="item.value">-->
-<!--                          </el-option>-->
+              <el-form label-width="100px" >
+                  <el-form-item label="讨论版社区">
+                      <el-select v-model="pojo.sortid" filterable @change="selectWorkName">
+                          <el-option
+                                  v-for="item in options"
+                                  :key="item.id"
+                                  :label="item.name"
+                                  :value="item.id">
+                          </el-option>
                       </el-select>
                   </el-form-item>
                   <el-form-item label="作者">
@@ -78,7 +78,6 @@
                       <el-button  type="primary"  @click="formVisible = false">关闭</el-button>
                   </el-form-item>
               </el-form>
-
           </el-dialog>
       </template>
   </div>
@@ -92,41 +91,56 @@
             el:"#app",
             data(){
                 return {
+                    sortId:'',
                     tableData:[],
                     pojo:{},
                     searchData:{},
-                    ab:'',
+                    option:'',
                     options:[],
                     formVisible: false
                 }
             }
             ,
             methods:{
-                created(){
-                    console.log("a");
-                    this.fetchData();
-                    this.fetchTwoData();
-
-                },
                 fetchData(){
-                    axios.get('http://localhost:9001/consumer/detail/get').then( response=>{
+                    axios.get('http://localhost:9001/consumer/detail/get',{  //params参数必写 , 如果没有参数传{}也可以
+                        params: {
+                            sortId: this.sortId,
+                        }
+                    }).then( response=>{
                         console.log(response);
-                        this.options=response.data.data;
                         this.tableData=response.data.data;
                     })
-                },
-                fetchTwoData(){
+                }
+                ,fetchTwoData(){
                     axios.get('http://localhost:9001/consumer/sort/get').then( response=>{
                         console.log(response);
                         this.options=response.data.data;
-                    })
-                },
-                save(){
-                    axios.post('http://localhost:9001/consumer/detail/save',this.pojo).then(response=>{
-                        this.formVisible=false;
-                       this.fetchData();
+                        console.log(this.options);
                     })
                 }
+                ,save(){
+                    console.log(this.pojo);
+                    axios.post('http://localhost:9001/consumer/detail/save',this.pojo).then(response=>{
+                        this.formVisible=false;
+                        this.fetchData();
+                    })
+                }
+                , selectWorkName(id){
+                    console.log("select中对应value值",id)
+                    let selectedWorkName = {};
+                    selectedWorkName = this.options.find((item)=>{//这里的chargingWorkNameList就是上面遍历的数据源
+                        return item.id === id;
+                        //筛选出匹配数据，是对应数据的整个对象
+                    });
+                    this.sortId=selectedWorkName.id;
+                    this.pojo.sortid=selectedWorkName.id;
+                }
+            }
+            ,created(){
+                console.log("a");
+                this.fetchData();
+                this.fetchTwoData();
             }
         })
 

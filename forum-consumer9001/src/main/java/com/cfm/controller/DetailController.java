@@ -9,6 +9,7 @@ import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -44,6 +45,9 @@ public class DetailController {
             notes = "增加帖子")
     @RequestMapping(value = "save",method = RequestMethod.POST)
     public ResultEntity saveDetail(@RequestBody Detail detail){
+        detail.setCreatedate(new Date());
+        detail.setReplycount(0);
+        System.out.println(detail);
         Integer integer = detailClient.saveDetail(detail);
         if(integer>0){
             return ResultEntity.successNoData();

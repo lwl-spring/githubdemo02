@@ -1,9 +1,11 @@
 package com.cfm.entity;
 
+import lombok.ToString;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
+@ToString
 public class Detail {
     private Integer id;
 
