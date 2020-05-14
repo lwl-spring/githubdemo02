@@ -16,6 +16,7 @@ import java.util.List;
  */
 @Api("分类模块")
 @RestController
+@CrossOrigin
 @RequestMapping("/consumer/sort")
 public class SortController {
     @Autowired

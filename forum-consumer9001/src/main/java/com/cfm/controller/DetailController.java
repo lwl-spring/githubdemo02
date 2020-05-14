@@ -17,6 +17,7 @@ import java.util.List;
  */
 @Api("帖子模块")
 @RestController
+@CrossOrigin
 @RequestMapping("/consumer/detail")
 public class DetailController {
     @Autowired
@@ -30,7 +31,7 @@ public class DetailController {
             notes = "可以根据分类编号查询指定帖子信息，分类编号为null或者小于等于0就查询全部帖子信息")
     @RequestMapping(value = "get",method = RequestMethod.GET)
     public ResultEntity queryBySortId(@ApiParam(name = "sortId",value = "分类编号")
-                                          @RequestParam Integer sortId){
+                                          @RequestParam(required = false) Integer sortId){
         List<Detail> details = detailClient.queryBySortId(sortId);
         return ResultEntity.successWithData(details);
     }
